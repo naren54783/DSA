@@ -42,16 +42,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="LinkedList.cs" />
-    <Compile Include="LinkedNode.cs" />
+    <Compile Include="Array\subArray.cs" />
+    <Compile Include="LinkedList\LinkedList.cs" />
+    <Compile Include="LinkedList\LinkedNode.cs" />
     <Compile Include="Misc.cs" />
-    <Compile Include="MyStack.cs" />
+    <Compile Include="Misc\FizzBuzz.cs" />
+    <Compile Include="Number\NumberProblems.cs" />
+    <Compile Include="Stack\MyStack.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Stack.cs" />
+    <Compile Include="Stack\Stack.cs" />
+    <Compile Include="String\StringProblems.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
